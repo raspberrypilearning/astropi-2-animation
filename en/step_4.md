@@ -13,7 +13,7 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 1. Animation is multiple swapped images in sequence - 30 sec limit
 2. Design another image/ more images
 3. Call images in order
-4. Kill the loop at 30s
+4. End the loop before 28s
 
 --- task ---
 
