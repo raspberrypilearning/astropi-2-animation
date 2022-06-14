@@ -1,5 +1,5 @@
 ---
-title: explore-project-template
+title: Show images on your SenseHAT
 hero_image: images/banner.png
 description: explore-project-template description
 version: 4
@@ -8,9 +8,9 @@ copyedit: false
 last_tested: '2021-03-26'
 steps:
 - title: Introduction
-- title: Step title
-- title: Step title
-- title: Step title
+- title: Design an image
+- title: Encode an image
+- title: Make an animation
 - title: Reflection
   knowledge_quiz:
     path: quiz1
