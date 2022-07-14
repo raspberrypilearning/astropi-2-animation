@@ -18,7 +18,7 @@ You will:
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-This project shows a short animation made of multiple frames on the SenseHAT display. Click Run to restart the animation.
+This project shows a short animation made of multiple frames on the SenseHAT display, showing a chicken putting on sunglasses.
 </div>
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
