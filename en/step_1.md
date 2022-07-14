@@ -16,7 +16,7 @@ You will:
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-This project shows a short animation made of multiple frames on the SenseHAT display, showing a chicken putting on sunglasses.
+This project shows a short animation of a chicken putting on sunglasses, made of multiple frames on the SenseHAT display.
 </div>
 </div>
 <div class="scratch-preview" style="margin-left: 15px;">
@@ -27,5 +27,5 @@ This project shows a short animation made of multiple frames on the SenseHAT dis
 --- /no-print ---
 
 --- print-only ---
-![Completed project](images/showcase_static.png)
+![Completed project](images/demo.jpg)
 --- /print-only ---
