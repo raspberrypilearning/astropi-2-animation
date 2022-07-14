@@ -1,19 +1,17 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
+In this project, you will create a series of images using the RGBLEDs on the SenseHAT array which can be cycled to create an animation.
 
 <mark>Boxout (wherever wanted/needed) </mark>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">Animation</span> is a method of swapping still images very quickly in front of your eyes, that tricks your brain into seeing movement. A series of still images is shown quickly in sequence, and we see this as a moving picture - it's a lot like how films work, though they are a series of captured images of real live people rather than an artwork.
 </p>
 
-<mark>Objectives in language that learners will understand</mark>
-
 You will:
-+ 
-+ 
-+ 
++ Choose colours and set them as variables in your code
++ Create images on the SenseHAT array
++ Cycle images to create an animation
 
 --- no-print ---
 --- task ---
