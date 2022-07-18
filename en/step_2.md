@@ -265,6 +265,26 @@ sense.set_pixels(crab)
 + What does your error message say? Which line has an error?
 + Does your code match the code above?
 
+--- collapse ---
+---
+title: NameError
+---
+
++ Have you got the right letters in your list?
++ Have you defined all the colours you are using?
++ Have you spelled the name of your image correctly in `sense.set_pixels(image)`?
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: SyntaxError
+---
+
++ Have you got commas on the end of each line of your image list?
+
+
+--- /collapse ---
 
 --- /task ---
 
