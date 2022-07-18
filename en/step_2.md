@@ -52,7 +52,9 @@ v=(255,0,255) #violet
 
 --- /code ---
 
-You will now be able to use orange and violet in your image! Feel free to add any other colours you like now, or you can easily come back later if you decide you need to.
+You will now be able to use orange and violet in your image! 
+
+Feel free to add any other colours you like now in the same way.
 
 [[[generic-theory-colours]]]
 
@@ -60,6 +62,162 @@ You will now be able to use orange and violet in your image! Feel free to add an
 
 --- /task ---
 
+You can use the LED array on the SenseHAT to display an image by creating a **list** of which colour you want each pixel set to, and calling that list with the `set_pixels` command. 
+
+The examples below are formatted in a grid of 8 values over 8 lines to simulate the way it will look on the SenseHAT (if you squint you might be able to see it!), but they *could* all be on the same line. Each letter in the following lists represents a single pixel on the array and what colour it should show.
+
+--- task ---
+
+**Choose:** Choose one of the images below to copy into your code. The examples include:
++ crab
++ crocodile
++ snake
++ frog
++ skull
+
+--- code ---
+---
+language: python
+filename: crab.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+crab = [
+b,w,w,b,w,w,b,b,
+b,w,n,b,w,n,b,b,
+b,r,b,b,r,b,b,b,
+b,r,b,b,r,b,b,b,
+r,r,r,r,r,b,r,r,
+r,r,n,n,r,r,r,b,
+r,r,r,r,r,b,r,r,
+r,b,r,b,r,b,b,b]
+
+--- /code ---
+
+--- code ---
+---
+language: python
+filename: crocodile.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+croc = [
+g,g,g,g,g,n,n,n,
+g,b,g,b,g,g,g,g,
+g,g,g,g,g,g,g,g,
+g,g,n,w,n,n,n,w,
+g,g,n,n,n,n,n,n,
+g,g,n,n,n,w,n,n,
+g,g,g,g,g,g,g,g,
+g,g,g,g,g,g,g,g]
+
+--- /code ---
+
+--- code ---
+---
+language: python
+filename: snake.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+snake = [
+n,n,n,n,n,n,n,g,
+g,g,g,g,g,g,g,g,
+n,g,n,n,n,n,n,n,
+n,g,g,g,g,g,n,n,
+n,n,n,n,n,g,n,n,
+y,g,y,g,g,g,n,n,
+g,g,g,n,n,n,n,n,
+r,n,n,n,n,n,n,n]
+
+--- /code ---
+
+--- code ---
+---
+language: python
+filename: frog.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+frog = [
+n,g,g,g,n,g,g,g,
+n,g,y,g,n,g,y,g,
+g,g,g,g,g,g,g,g,
+g,r,r,r,r,r,r,r,
+g,g,g,g,g,g,g,g,
+g,g,g,g,g,g,g,g,
+g,g,g,g,g,g,g,g,
+g,g,n,g,g,g,n,g]
+
+--- /code ---
+
+--- code ---
+---
+language: python
+filename: skull.py
+line_numbers: false
+line_number_start: 
+line_highlights: 
+---
+
+skull = [
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,n,w,w,w,n,w,w,
+w,w,w,n,w,w,w,w,
+w,w,w,w,w,w,w,w,
+b,w,n,w,n,w,b,b,
+b,w,n,w,n,w,b,b]
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Select the code for the image you want from the examples above and **copy and paste** into your script in Trinket beneath the line reading `#Define image`. The example below uses the `crab` image.
+
+**Tip:** You will need to copy the **entire code snippet** for the image you want to display.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 20-28
+---
+
+#Define image
+crab = [
+b,w,w,b,w,w,b,b,
+b,w,n,b,w,n,b,b,
+b,r,b,b,r,b,b,b,
+b,r,b,b,r,b,b,b,
+r,r,r,r,r,b,r,r,
+r,r,n,n,r,r,r,b,
+r,r,r,r,r,b,r,r,
+r,b,r,b,r,b,b,b]
+
+--- /code ---
+
+--- /task ---
+
+Now that we have a list of 
+--- task ---
+
+
+
+--- /task ---
 
 
 --- save ---
