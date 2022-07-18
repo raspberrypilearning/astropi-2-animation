@@ -212,12 +212,60 @@ r,b,r,b,r,b,b,b]
 
 --- /task ---
 
-Now that we have a list of 
+Now that you have a list of colours for each LED, you need to run a command to make them light up. 
+
 --- task ---
 
+**Type:** Beneath the line that reads `#Display Image` add: `sense.set_pixels()`
 
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 31 
+line_highlights: 32
+---
+#Display Image
+sense.set_pixels()
+--- /code ---
 
 --- /task ---
 
+This command will allow you call any list of 64 values (pixels) and display it as an image. You just now need to tell it which list you want it to show!
+
+--- task ---
+
+**Type:** Inside the brackets of the line you just typed, enter the name of the image you used:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 31 
+line_highlights: 32
+---
+#Display Image
+sense.set_pixels(crab)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code. You should see the pixels light up with your chosen image!
+
+--- /task ---
+
+--- task ---
+
+**Debug:** 
++ What does your error message say? Which line has an error?
++ Does your code match the code above?
+
+
+--- /task ---
 
 --- save ---
