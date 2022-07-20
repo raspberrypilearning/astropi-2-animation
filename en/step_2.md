@@ -5,7 +5,7 @@
 In this step you will choose colours for an image and set them as variables in your code, then create an image and play with the colour values until you like it!  
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+<mark>Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"} </mark>
 </div>
 </div>
 
