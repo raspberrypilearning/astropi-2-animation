@@ -27,7 +27,7 @@ You will need to copy the list of colours on the pixels of your image into your 
 
 --- task ---
 
-**Type:** Name your list `image`. On the line beneath `#Define image` type:
+**Type:** Name your list `image`. On the line beneath `#Define image` insert a blank line by pressing Enter and type:
 
 --- code ---
 ---
@@ -79,7 +79,7 @@ Because of the way python handles **white space**, it will not notice that you h
 
 --- task ---
 
-**Type:** Copy the next seven rows of pixels from your image into your program, making sure you have a comma between each letter and at the end of each line. 
+**Type:** Copy the next seven rows of pixels from your image into your program, making sure you have a comma between each letter and at the end of each line.
 
 Using the smiling face image above, your code would look like this:
 
@@ -110,26 +110,62 @@ Can you see the face in the code?
 
 --- /task ---
 
-
-1. Discuss list as 'fake grid' for ease of viewing - whitespace
-2. code your own image
-
-
-
 --- task ---
 
-Another step of tasks to complete.
+**Edit:** Change the argument in your final line to the name of your list:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+
+#Display Image
+sense.set_pixels(image)
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+**Test:** Run your code. You should see the image you designed appear on the array!
 
 --- /task ---
+
+--- task ---
+
+**Debug:** 
++ What does your error message say? Which line has an error?
++ Does your code match the code above?
+
+--- collapse ---
+---
+title: NameError
+---
+
++ Have you got the right letters in your list?
++ Have you defined all the colours you are using?
++ Have you spelled the name of your image correctly in `sense.set_pixels(image)`?
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: SyntaxError
+---
+
++ Have you got commas on the end of each line of your image list?
++ Are you missing any square brackets at the beginning and end of your image list? `[ ]`
+
+
+--- /collapse ---
+
+
+--- /task ---
+
 
 --- save ---
