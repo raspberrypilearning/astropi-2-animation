@@ -4,17 +4,14 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In this step you will choose colours for an image and set them as variables in your code, then create an image and play with the colour values until you like it!
 </div>
-<div>
+</div>
 
 <iframe src="https://trinket.io/embed/python/39d6ebec49?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-</div>
-</div>
-
-Using the understanding of RGB colour values from the previous project, it is possible to individually set each LED in the array to whatever colour you choose and create a simple image.
+Using the understanding of RGB colour values from the previous project, it is possible to set each LED in the array to whatever colour you choose and create a simple image.
 
 <p style='border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;'>
-<span style="color: #0faeb0">Pixel Art</span> is the creation of images by colouring <strong>pixels</strong> one at a time in a specific way. Most digital images you look at are made of pixels, including all of your favourite video games! 
+<span style="color: #0faeb0">Pixel Art</span> is the creation of images by colouring <strong>pixels</strong> one at a time in a specific way. Most digital images you look at are made of pixels, including many of your favourite video games! 
 </p>
 
 
@@ -45,7 +42,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 15 
-line_highlights: 16-17
+line_highlights: 17-18
 ---
 g=(0,255,0) #green
 b=(0,0,255) #blue
@@ -58,15 +55,15 @@ You will now be able to use orange and violet in your image!
 
 Feel free to add any other colours you like now in the same way.
 
-[[[generic-theory-colours]]]
+[[[generic-theory-simple-colours]]]
 
 **Tip:** Make sure you don't double up on variable letters by using the same one twice!
 
 --- /task ---
 
-You can use the LED array on the SenseHAT to display an image by creating a **list** of which colour you want each pixel set to, and calling that list with the `set_pixels` command. 
+You can use the LED array on the SenseHAT to display an image by creating a **list** of which colour you want each pixel set to.
 
-The examples below are formatted in a grid of 8 values over 8 lines to simulate the way it will look on the SenseHAT (if you squint you might be able to see it!), but they *could* all be on the same line. Each letter in the following lists represents a single pixel on the array and what colour it should show.
+The examples below are in a grid of 8 values over 8 lines to simulate the way it will look on the SenseHAT (if you squint you might be able to see it!). Each letter in the following lists colours a single pixel on the array.
 
 --- task ---
 
