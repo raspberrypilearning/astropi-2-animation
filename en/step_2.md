@@ -2,10 +2,12 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step you will choose colours for an image and set them as variables in your code, then create an image and play with the colour values until you like it!  
+In this step you will choose colours for an image and set them as variables in your code, then create an image and play with the colour values until you like it!
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+
+<iframe src="https://trinket.io/embed/python/39d6ebec49?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 </div>
 </div>
 
@@ -18,7 +20,7 @@ Using the understanding of RGB colour values from the previous project, it is po
 
 --- task ---
 
-Open the [starter project](https://trinket.io/python/1ae94097b2){:target="_blank"}. Trinket will open in a new tab.
+Open the [starter project](https://trinket.io/library/trinkets/56fc59fb5f){:target="_blank"}. Trinket will open in a new tab.
 
 --- /task ---
 
@@ -42,8 +44,8 @@ You are now going to add two more colours to your program; orange and violet. To
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11 
-line_highlights: 13-14
+line_number_start: 15 
+line_highlights: 16-17
 ---
 g=(0,255,0) #green
 b=(0,0,255) #blue
@@ -193,8 +195,8 @@ Select the code for the image you want from the examples above and **copy and pa
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 19
-line_highlights: 20-28
+line_number_start: 21
+line_highlights: 22-30
 ---
 
 #Define image
@@ -216,39 +218,18 @@ Now that you have a list of colours for each LED, you need to run a command to m
 
 --- task ---
 
-**Type:** Beneath the line that reads `#Display Image` add: `sense.set_pixels()`
+**Type:** Beneath the line that reads `#Display Image` add: `sense.set_pixels()` and add in the image name as an argument.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 31 
-line_highlights: 32
----
-#Display Image
-sense.set_pixels()
---- /code ---
-
---- /task ---
-
-This command will allow you call any list of 64 values (pixels) and display it as an image. You just now need to tell it which list you want it to show!
-
---- task ---
-
-**Type:** Inside the brackets of the line you just typed, enter the name of the image you used:
-
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 31 
-line_highlights: 32
+line_number_start: 33 
+line_highlights: 34
 ---
 #Display Image
 sense.set_pixels(crab)
-
 --- /code ---
 
 --- /task ---
