@@ -161,11 +161,8 @@ title: SyntaxError
 + Have you got commas on the end of each line of your image list?
 + Are you missing any square brackets at the beginning and end of your image list? `[ ]`
 
-
 --- /collapse ---
 
-
 --- /task ---
-
 
 --- save ---
