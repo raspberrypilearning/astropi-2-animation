@@ -177,7 +177,7 @@ sleep(0.5)
 
 --- task ---
 
-**Test:** Run your code. This should call your two images one after another, for half a second each.
+**Test:** Run your code. This should call your two images one after another, for half a second each. It will look like your image changes, but it won't keep moving as we haven't coded our **loop** yet.
 
 --- /task ---
 
@@ -205,6 +205,15 @@ title: SyntaxError
 
 + Have you got commas on the end of each line of your image list?
 + Are you missing any square brackets at the beginning and end of your image list? `[ ]`
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My image isn't changing
+---
+
+Have you called both images in turn, or are they both `image`? 
 
 --- /collapse ---
 
