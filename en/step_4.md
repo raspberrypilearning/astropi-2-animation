@@ -110,9 +110,106 @@ At the moment your frames are identical, so won't have the appearance of movemen
 
 --- task ---
 
+**Edit:** Change some of the pixels in your images by deleting and replacing them. In this example, we will be moving the blue pixels designated with a `b` one space to the right:
 
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 35
+---
+#Define image
+image = [
+    o,o,o,o,o,o,o,o,
+    o,w,w,o,o,w,w,o,
+    o,b,w,o,o,b,w,o,
+    o,o,o,o,o,o,o,o,
+    o,r,o,o,o,o,r,o,
+    o,o,r,o,o,r,o,o,
+    o,o,o,r,r,o,o,o,
+    o,o,o,o,o,o,o,o
+    ]
+
+
+image = [
+    o,o,o,o,o,o,o,o,
+    o,w,w,o,o,w,w,o,
+    o,w,b,o,o,w,b,o,
+    o,o,o,o,o,o,o,o,
+    o,r,o,o,o,o,r,o,
+    o,o,r,o,o,r,o,o,
+    o,o,o,r,r,o,o,o,
+    o,o,o,o,o,o,o,o
+    ]
+
+
+--- /code ---
+
+**Tip:** Make sure all the lines in your list end in a comma and have eight terms. (It should be easy to spot if something is off, thanks to your clever formatting!)
 
 --- /task ---
+
+The next thing to do is to call the images one after another to create the sense of motion. You do this by calling the first image, waiting for a fraction of a second (in this example we will start with half a second) then calling the second image for the same amount of time and repeating this process over and over. 
+
+--- task ---
+
+**Type:** At the end of your code, add the following:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 44
+line_highlights: 46-48
+---
+#Display Image
+sense.set_pixels(image)
+sleep(0.5)
+sense.set_pixels(image1)
+sleep(0.5)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code. This should call your two images one after another, for half a second each.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** 
++ What does your error message say? Which line has an error?
++ Does your code match the code above?
+
+--- collapse ---
+---
+title: NameError
+---
+
++ Have you got the right letters in your list?
++ Have you defined all the colours you are using?
++ Have you spelled the name of your image correctly in `sense.set_pixels(image)`?
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: SyntaxError
+---
+
++ Have you got commas on the end of each line of your image list?
++ Are you missing any square brackets at the beginning and end of your image list? `[ ]`
+
+--- /collapse ---
+
+--- /task ---
+
 
 
 --- save ---
