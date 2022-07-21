@@ -23,18 +23,96 @@ To create an animation, you need at least two frames or images which you can swa
 
 --- task ---
 
-**Copy:** Select the 
+**Copy:** Select the entire list you created for your image, including the name and the final square bracket. Copy the list using `Ctrl+C` and paste the copy beneath the first using `Ctrl+V`:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 32-41
+---
+#Define image
+image = [
+    o,o,o,o,o,o,o,o,
+    o,w,w,o,o,w,w,o,
+    o,b,w,o,o,b,w,o,
+    o,o,o,o,o,o,o,o,
+    o,r,o,o,o,o,r,o,
+    o,o,r,o,o,r,o,o,
+    o,o,o,r,r,o,o,o,
+    o,o,o,o,o,o,o,o
+    ]
+
+
+image = [
+    o,o,o,o,o,o,o,o,
+    o,w,w,o,o,w,w,o,
+    o,b,w,o,o,b,w,o,
+    o,o,o,o,o,o,o,o,
+    o,r,o,o,o,o,r,o,
+    o,o,r,o,o,r,o,o,
+    o,o,o,r,r,o,o,o,
+    o,o,o,o,o,o,o,o
+    ]
+
+
+--- /code ---
 
 --- /task ---
 
 --- task ---
 
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+**Edit:** Change the name of your second list by adding a `1` to the end of the name:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 32
+---
+#Define image
+image = [
+    o,o,o,o,o,o,o,o,
+    o,w,w,o,o,w,w,o,
+    o,b,w,o,o,b,w,o,
+    o,o,o,o,o,o,o,o,
+    o,r,o,o,o,o,r,o,
+    o,o,r,o,o,r,o,o,
+    o,o,o,r,r,o,o,o,
+    o,o,o,o,o,o,o,o
+    ]
+
+
+image1 = [
+    o,o,o,o,o,o,o,o,
+    o,w,w,o,o,w,w,o,
+    o,b,w,o,o,b,w,o,
+    o,o,o,o,o,o,o,o,
+    o,r,o,o,o,o,r,o,
+    o,o,r,o,o,r,o,o,
+    o,o,o,r,r,o,o,o,
+    o,o,o,o,o,o,o,o
+    ]
+
+--- /code ---
+
+This will allow us to call our two frames separately. 
+
+**Tip:** If you make more frames, remember to change the name for each one!
 
 --- /task ---
+
+At the moment your frames are identical, so won't have the appearance of movement if we swap them. You need to change some of the pixels in your image. In this example, we will make the face's eyes look from side to side.
+
+--- task ---
+
+
+
+--- /task ---
+
 
 --- save ---
