@@ -227,19 +227,32 @@ A **loop** is a section of code that repeats over and over again. You're going t
 
 --- task ---
 
-**Type:** Add a blank line beneath the line that reads `#Display Image`. On the new line type `for i in range(10):'
+**Type:** Add a blank line beneath the line that reads `#Display Image`. On the new line type `for i in range(10):'. This will create a **for loop** which will run **10 times**.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 
-line_highlights: 
+line_number_start: 44
+line_highlights: 45
 ---
 #Display Image
 for i in range(10):
+sense.set_pixels(image)
+sleep(0.5)
+sense.set_pixels(image1)
+sleep(0.5)
+
 --- /code ---
+--- /task ---
+
+Now that you have created our loop, we need to **indent** the parts of the code you want to be looped: everything underneath what you just typed.
+
+--- task ---
+
+**Edit:** At the beginning of every line of code **beneath** the line you just added, press the `Tab` key to insert four spaces and create an **indented block** of code.
+
 --- /task ---
 
 
