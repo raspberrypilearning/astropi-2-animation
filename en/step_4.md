@@ -215,7 +215,7 @@ title: SyntaxError
 title: My image isn't changing
 ---
 
-Have you called both images in turn, or are they both `image`? 
+Have you called both `image` and `image1` in turn, or are they both `image`? 
 
 --- /collapse ---
 
@@ -252,7 +252,7 @@ Now that you have created our loop, we need to **indent** the parts of the code 
 
 --- task ---
 
-**Edit:** At the beginning of every line of code **beneath** the line you just added, press the `Tab` key to insert four spaces and create an **indented block** of code:
+**Edit:** At the beginning of every line of code **beneath** the line you just added, press the `Tab` key or insert **four spaces** and create an **indented block** of code:
 
 --- code ---
 ---
@@ -301,6 +301,7 @@ title: NameError
 title: SyntaxError
 ---
 
++ Have you indented **all** the lines you want in your loop?
 + Have you got commas on the end of each line of your image list?
 + Are you missing any square brackets at the beginning and end of your image list? `[ ]`
 
@@ -311,12 +312,11 @@ title: SyntaxError
 title: My image isn't changing
 ---
 
-Have you called both images in turn, or are they both `image`? 
+Have you called both `image` and `image1` in turn, or are they both `image`?
+Have you indented the final `sleep`?
 
 --- /collapse ---
 
 --- /task ---
-
-
 
 --- save ---
