@@ -245,13 +245,75 @@ sense.set_pixels(image1)
 sleep(0.5)
 
 --- /code ---
+
 --- /task ---
 
 Now that you have created our loop, we need to **indent** the parts of the code you want to be looped: everything underneath what you just typed.
 
 --- task ---
 
-**Edit:** At the beginning of every line of code **beneath** the line you just added, press the `Tab` key to insert four spaces and create an **indented block** of code.
+**Edit:** At the beginning of every line of code **beneath** the line you just added, press the `Tab` key to insert four spaces and create an **indented block** of code:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 44
+line_highlights: 45
+---
+#Display Image
+for i in range(10):
+    sense.set_pixels(image)
+    sleep(0.5)
+    sense.set_pixels(image1)
+    sleep(0.5)
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code. You should see your images switch back and forth.
+
+--- /task ---
+
+--- task ---
+
+**Debug:** 
++ What does your error message say? Which line has an error?
++ Does your code match the code above?
+
+--- collapse ---
+---
+title: NameError
+---
+
++ Have you got the right letters in your list?
++ Have you defined all the colours you are using?
++ Have you spelled the name of your image correctly in `sense.set_pixels(image)`?
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: SyntaxError
+---
+
++ Have you got commas on the end of each line of your image list?
++ Are you missing any square brackets at the beginning and end of your image list? `[ ]`
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: My image isn't changing
+---
+
+Have you called both images in turn, or are they both `image`? 
+
+--- /collapse ---
 
 --- /task ---
 
