@@ -63,6 +63,8 @@ Feel free to add any other colours you like now in the same way.
 
 You can use the LED array on the SenseHAT to display an image by creating a **list** of which colour you want each pixel set to.
 
+[[[rpi-sensehat-led-coordinates]]]
+
 The examples below are in a grid of 8 values over 8 lines to simulate the way it will look on the SenseHAT (if you squint you might be able to see it!). Each letter in the following lists colours a single pixel on the array.
 
 --- task ---

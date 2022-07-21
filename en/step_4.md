@@ -151,7 +151,9 @@ image = [
 
 --- /task ---
 
-The next thing to do is to call the images one after another to create the sense of motion. You do this by calling the first image, waiting for a fraction of a second (in this example we will start with half a second) then calling the second image for the same amount of time and repeating this process over and over. 
+The next thing to do is to call the images one after another to create the sense of motion. You do this by calling the first image, waiting for a fraction of a second using `sleep`, then calling the second image for the same amount of time and repeating this process over and over. 
+
+[[[generic-python-sleep]]]
 
 --- task ---
 
@@ -177,7 +179,7 @@ sleep(0.5)
 
 --- task ---
 
-**Test:** Run your code. This should call your two images one after another, for half a second each. It will look like your image changes, but it won't keep moving as we haven't coded our **loop** yet.
+**Test:** Run your code. This should call your two images one after another, for half a second each. It will look like your image changes, but it won't *keep* moving as we haven't coded our **loop** yet.
 
 --- /task ---
 
@@ -217,6 +219,27 @@ Have you called both images in turn, or are they both `image`?
 
 --- /collapse ---
 
+--- /task ---
+
+A **loop** is a section of code that repeats over and over again. You're going to use a **loop** now to make your images switch quickly over and over again.
+
+[[[generic-python-for-loop]]]
+
+--- task ---
+
+**Type:** Add a blank line beneath the line that reads `#Display Image`. On the new line type `for i in range(10):'
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 
+line_highlights: 
+---
+#Display Image
+for i in range(10):
+--- /code ---
 --- /task ---
 
 
